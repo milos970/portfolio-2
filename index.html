@@ -10,6 +10,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <script src="script.js" defer></script>
 	</head>
 	<body class="is-preload">
 
@@ -153,9 +155,12 @@
 
 							<!-- Search -->
 								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
+                                    <div class="switch">
+                                        <input id="language-toggle" class="check-toggle check-toggle-round-flat"  type="checkbox">
+                                        <label for="language-toggle"></label>
+                                        <span class="on">SK</span>
+                                        <span class="off">EN</span>
+                                    </div>
 								</section>
 
 							<!-- Menu -->
@@ -170,8 +175,8 @@
 										<li>
 											<span class="opener">Projects</span>
 											<ul>
-												<li><a href="#">Featured Projects</a></li>
-												<li><a href="#">Currently Building</a></li>
+												<li><a href="featured-projects.html">Featured Projects</a></li>
+												<li><a href="currently-building.html">Currently Building</a></li>
 											</ul>
 										</li>
 										<li><a href="tech-stack.html">Tech stack</a></li>

@@ -1,0 +1,17 @@
+{
+  "home.title": "Junior Java Backend Developer",
+  "home.subtitle": "Vyvíjam spoľahlivé backend aplikácie pomocou Spring Boot.",
+
+  "about.title": "O mne",
+
+  "tech.title": "Technológie",
+
+  "learning.title": "Cesta vzdelávania",
+
+  "contact.title": "Kontakt",
+
+
+  "featured-projects.liw.desc": "Jednoduchá príbehová GUI aplikácia voľne inšpirovaná zážitkami z AAA hier Firewatch a Life Is Strange.",
+
+  "featured-projects.edu.desc": "Wébová aplikácia určená ako podpora výučby predmetu Numerické metódy."
+}

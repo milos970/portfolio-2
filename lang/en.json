@@ -1,0 +1,18 @@
+{
+  "home.title": "Junior Java Backend Developer",
+  "home.subtitle": "Building reliable backend applications with Spring Boot.",
+
+  "about.title": "About Me",
+
+  "tech.title": "Tech Stack",
+
+  "learning.title": "Learning Journey",
+
+  "contact.title": "Contact",
+
+  "featured-projects.liw.desc": "A simple narrative-driven GUI application loosely inspired by experiences from the AAA games Firewatch and Life Is Strange.",
+
+  "featured-projects.edu.desc": "A web application designed to support instruction in the Numerical Methods course."
+
+
+}
