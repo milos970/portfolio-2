@@ -37,11 +37,13 @@ input.check-toggle-round-flat:checked~.on {
     color: #fff;
 }
 
-.check-toggle {
-    position: absolute;
-    margin-left: -9999px;
-    visibility: hidden;
+.switch input.check-toggle-round-flat {
+    position: absolute !important;
+    left: -9999px !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
 }
+
 
 .check-toggle+label {
     display: block;

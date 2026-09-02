@@ -2271,3 +2271,119 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
+
+/* =========================================================
+ LANGUAGE SWITCH OVERRIDE
+ ========================================================= */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 101px;
+    height: 39px;
+    margin: 10px 5px 0 5px;
+}
+
+.switch > span {
+    position: absolute;
+    top: 14px;
+    width: 50%;
+    pointer-events: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .06);
+    text-align: center;
+    z-index: 3;
+}
+
+.switch > span.on {
+    left: 0;
+    padding-left: 2px;
+    color: #F36F25;
+}
+
+.switch > span.off {
+    right: 0;
+    padding-right: 4px;
+    color: #fff;
+}
+
+
+/* Skrytie pôvodného checkboxu */
+.switch > input.check-toggle {
+    position: absolute !important;
+    left: -9999px !important;
+    margin-left: 0 !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    width: 1px !important;
+    z-index: -1 !important;
+}
+
+
+/* Vlastný vzhľad labelu */
+.switch > input.check-toggle-round-flat + label {
+    display: block !important;
+    position: relative !important;
+    cursor: pointer;
+
+    outline: none;
+    user-select: none;
+
+    width: 97px !important;
+    height: 35px !important;
+    padding: 2px !important;
+
+    background-color: #F36F25 !important;
+    border-radius: 60px !important;
+
+    box-sizing: content-box;
+}
+
+
+/* Zrušenie globálneho checkbox :before */
+.switch > input.check-toggle-round-flat + label:before {
+    content: none !important;
+    display: none !important;
+}
+
+
+/* Biely posúvač */
+.switch > input.check-toggle-round-flat + label:after {
+    content: "" !important;
+    display: block !important;
+    position: absolute !important;
+
+    top: 4px !important;
+    left: 4px !important;
+    bottom: 4px !important;
+
+    width: 48px !important;
+
+    background-color: #fff !important;
+    border: 0 !important;
+    border-radius: 52px !important;
+
+    box-shadow: none !important;
+
+    transition: margin 0.2s !important;
+}
+
+
+/* Posunutie pri EN */
+.switch > input.check-toggle-round-flat:checked + label:after {
+    margin-left: 44px !important;
+}
+
+
+/* Texty */
+.switch > input.check-toggle-round-flat:checked ~ .off {
+    color: #F36F25;
+}
+
+.switch > input.check-toggle-round-flat:checked ~ .on {
+    color: #fff;
+}
