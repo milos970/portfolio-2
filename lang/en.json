@@ -1,18 +1,37 @@
 {
-  "home.title": "Junior Java Backend Developer",
-  "home.subtitle": "Building reliable backend applications with Spring Boot.",
+  "home.title": "Hi, I'm Milos",
+  "home.desc": "Welcome to my portfolio",
+  "home.title.button": "Learn more",
 
-  "about.title": "About Me",
+  "home": "Home",
 
-  "tech.title": "Tech Stack",
+  "about-me": "About Me",
 
-  "learning.title": "Learning Journey",
+  "tech-stack": "Tech Stack",
 
-  "contact.title": "Contact",
+  "learning-journey": "Learning Journey",
 
-  "featured-projects.liw.desc": "A simple narrative-driven GUI application loosely inspired by experiences from the AAA games Firewatch and Life Is Strange.",
+  "contact": "Contact",
 
-  "featured-projects.edu.desc": "A web application designed to support instruction in the Numerical Methods course."
+  "currently-building": "Currently building",
+
+  "projects": "Projects",
+
+  "featured-projects": "Featured projects",
+
+  "featured-projects-title": "Featured projects",
+
+  "featured-projects.liw.desc": "A simple story-driven GUI application loosely inspired by the atmosphere and gameplay elements of the AAA titles Firewatch and Life Is Strange. The project focuses on environmental interaction, storytelling, and overall user experience.",
+
+  "featured-projects.edu.desc": "A web application designed to support the teaching of the Numerical Methods course. It allows users to work with selected numerical methods and visualize the results of individual calculations.",
+
+  "featured-projects.han.desc": "A graphical implementation of the traditional Hangman game. The application provides a simple user interface, evaluates guessed letters in real time, and visually displays the current game state.",
+
+  "featured-projects.dic.desc": "A simple statistical experiment based on the sums of dice rolls. The application can simulate a large number of rolls, visualize the resulting distribution, and compare it with theoretical values.",
+
+  "featured-projects.swp.desc": "A simple web application inspired by the TV series The Lost. The project uses the series as a thematic foundation for its user interface and interactive content presentation.",
+
+  "featured-projects.pcr.desc": "An information system designed for managing patient records and PCR test results. It allows users to organize patient data, record test results, and work with stored records."
 
 
 }

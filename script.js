@@ -1,38 +1,52 @@
 const toggle = document.getElementById("language-toggle");
+const pageContent = document.getElementById("page-content");
+
+let currentLanguage = localStorage.getItem("language") || "sk";
+
 async function loadLanguage(lang) {
-    const response = await fetch(`lang/${lang}.json`);
-    const translations = await response.json();
+    try {
+        const response = await fetch(`lang/${lang}.json`);
 
-    document.querySelectorAll("[data-i18n]").forEach(element => {
-        const key = element.dataset.i18n;
-        console.log(key);
-        element.textContent = translations[key];
-    });
+        if (!response.ok) {
+            throw new Error("Translation file not found");
+        }
 
-    // uloženie jazyka
-    localStorage.setItem("language", lang);
+        const translations = await response.json();
+
+        document.querySelectorAll("[data-i18n]").forEach(element => {
+            const key = element.dataset.i18n;
+
+            // Ak preklad existuje, použi ho
+            // Ak nie, nechaj pôvodný text
+            if (translations[key]) {
+                element.textContent = translations[key];
+            }
+        });
+
+        currentLanguage = lang;
+        localStorage.setItem("language", lang);
+
+    } catch (error) {
+        console.error("Chyba pri načítaní prekladov:", error);
+    }
 }
 
-// načítanie pri štarte
-const savedLang = localStorage.getItem("language") || "sk";
-toggle.checked = savedLang === "en";
-loadLanguage(savedLang);
+// Načítanie jazyka pri štarte
+toggle.checked = currentLanguage === "en";
+loadLanguage(currentLanguage);
 
-// prepnutie jazyka
+// Prepnutie jazyka
 toggle.addEventListener("change", () => {
     const lang = toggle.checked ? "en" : "sk";
     loadLanguage(lang);
 });
 
-
-const pageContent = document.getElementById("page-content");
-
+// Načítanie stránky
 async function loadPage() {
     let page = window.location.hash.substring(1);
 
     // Defaultná stránka
     if (!page) {
-        alert(5);
         page = "home";
     }
 
@@ -53,6 +67,9 @@ async function loadPage() {
 
         pageContent.innerHTML = await response.text();
 
+        // Preloženie novo načítanej stránky
+        await loadLanguage(currentLanguage);
+
         window.scrollTo({
             top: 0,
             behavior: "smooth"
@@ -71,6 +88,8 @@ async function loadPage() {
     }
 }
 
+// Reakcia na zmenu stránky
 window.addEventListener("hashchange", loadPage);
 
+// Načítanie stránky pri štarte
 loadPage();

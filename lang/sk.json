@@ -1,17 +1,36 @@
 {
-  "home.title": "Junior Java Backend Developer",
-  "home.subtitle": "Vyvíjam spoľahlivé backend aplikácie pomocou Spring Boot.",
+  "home.title": "Ahoj, volám sa Miloš",
+  "home.desc": "Vítam ťa na mojom portfóliu",
+  "home.title.button": "Dozveď sa viac",
 
-  "about.title": "O mne",
+  "home": "Domov",
 
-  "tech.title": "Technológie",
+  "about-me": "O mne",
 
-  "learning.title": "Cesta vzdelávania",
+  "tech-stack": "Technologický stack",
 
-  "contact.title": "Kontakt",
+  "learning-journey": "Moja cesta učenia",
 
+  "contact": "Kontakt",
 
-  "featured-projects.liw.desc": "Jednoduchá príbehová GUI aplikácia voľne inšpirovaná zážitkami z AAA hier Firewatch a Life Is Strange.",
+  "currently-building": "Vo vývoji",
 
-  "featured-projects.edu.desc": "Wébová aplikácia určená ako podpora výučby predmetu Numerické metódy."
+  "projects": "Projekty",
+
+  "featured-projects-title": "Vybrané projekty",
+
+  "featured-projects": "Vybrané projekty",
+
+  "featured-projects.liw.desc": "Jednoduchá príbehová GUI aplikácia voľne inšpirovaná atmosférou a hernými prvkami AAA titulov Firewatch a Life Is Strange. Zameriava sa na interakciu s prostredím, rozprávanie príbehu a používateľský zážitok.",
+
+  "featured-projects.edu.desc": "Webová aplikácia vytvorená ako podpora výučby predmetu Numerické metódy. Umožňuje používateľom pracovať s vybranými numerickými metódami a názorne zobrazovať výsledky jednotlivých výpočtov.",
+
+  "featured-projects.han.desc": "Grafická implementácia tradičnej hry Obesenec. Aplikácia poskytuje jednoduché používateľské rozhranie, priebežne vyhodnocuje hádané písmená a vizuálne zobrazuje stav hry.",
+
+  "featured-projects.dic.desc": "Jednoduchý štatistický experiment založený na súčtoch hodov kociek. Aplikácia umožňuje simulovať veľké množstvo hodov, sledovať výsledné rozdelenie a porovnávať ho s teoretickými hodnotami.",
+
+  "featured-projects.swp.desc": "Jednoduchá webová aplikácia inšpirovaná seriálom The Lost. Projekt využíva tému seriálu ako základ pre používateľské rozhranie a prezentáciu obsahu v interaktívnej webovej aplikácii.",
+
+  "featured-projects.pcr.desc": "Informačný systém určený na evidenciu pacientov a správu výsledkov PCR testovania. Umožňuje organizovať údaje o pacientoch, zaznamenávať výsledky testov a pracovať s evidovanými záznamami."
+
 }
