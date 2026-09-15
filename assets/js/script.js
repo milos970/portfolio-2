@@ -16,8 +16,6 @@ async function loadLanguage(lang) {
         document.querySelectorAll("[data-i18n]").forEach(element => {
             const key = element.dataset.i18n;
 
-            // Ak preklad existuje, použi ho
-            // Ak nie, nechaj pôvodný text
             if (translations[key]) {
                 element.textContent = translations[key];
             }
@@ -31,26 +29,26 @@ async function loadLanguage(lang) {
     }
 }
 
-// Načítanie jazyka pri štarte
+
 toggle.checked = currentLanguage === "en";
 loadLanguage(currentLanguage);
 
-// Prepnutie jazyka
+
 toggle.addEventListener("change", () => {
     const lang = toggle.checked ? "en" : "sk";
     loadLanguage(lang);
 });
 
-// Načítanie stránky
+
 async function loadPage() {
     let page = window.location.hash.substring(1);
 
-    // Defaultná stránka
+
     if (!page) {
         page = "home";
     }
 
-    // Kontakt zostáva priamo v sidebare
+
     if (page === "contact") {
         document.getElementById("contact").scrollIntoView({
             behavior: "smooth"
@@ -67,7 +65,7 @@ async function loadPage() {
 
         pageContent.innerHTML = await response.text();
 
-        // Preloženie novo načítanej stránky
+
         await loadLanguage(currentLanguage);
 
         window.scrollTo({
@@ -88,8 +86,8 @@ async function loadPage() {
     }
 }
 
-// Reakcia na zmenu stránky
+
 window.addEventListener("hashchange", loadPage);
 
-// Načítanie stránky pri štarte
+
 loadPage();

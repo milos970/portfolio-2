@@ -5,21 +5,23 @@
 
   "home": "Domov",
 
-  "about-me": "O mne",
+  "about-me": "O Mne",
 
-  "tech-stack": "Technologický stack",
+  "tech-stack": "Technologický Stack",
 
   "learning-journey": "Moja cesta učenia",
 
   "contact": "Kontakt",
 
-  "currently-building": "Vo vývoji",
+  "currently-building": "Vo Vývoji",
 
   "projects": "Projekty",
 
-  "featured-projects-title": "Vybrané projekty",
+  "featured-projects.title": "Vybrané Projekty",
 
-  "featured-projects": "Vybrané projekty",
+  "featured-projects.desc": "Výber projektov, ktoré som vytvoril s cieľom rozvíjať svoje zručnosti, objavovať nové technológie a pretvárať nápady na funkčný softvér.",
+
+  "featured-projects": "Vybrané Projekty",
 
   "featured-projects.liw.desc": "Jednoduchá príbehová GUI aplikácia voľne inšpirovaná atmosférou a hernými prvkami AAA titulov Firewatch a Life Is Strange. Zameriava sa na interakciu s prostredím, rozprávanie príbehu a používateľský zážitok.",
 
@@ -31,6 +33,91 @@
 
   "featured-projects.swp.desc": "Jednoduchá webová aplikácia inšpirovaná seriálom The Lost. Projekt využíva tému seriálu ako základ pre používateľské rozhranie a prezentáciu obsahu v interaktívnej webovej aplikácii.",
 
-  "featured-projects.pcr.desc": "Informačný systém určený na evidenciu pacientov a správu výsledkov PCR testovania. Umožňuje organizovať údaje o pacientoch, zaznamenávať výsledky testov a pracovať s evidovanými záznamami."
+  "featured-projects.pcr.desc": "Informačný systém určený na evidenciu pacientov a správu výsledkov PCR testovania. Umožňuje organizovať údaje o pacientoch, zaznamenávať výsledky testov a pracovať s evidovanými záznamami.",
+
+  "tech-stack.headline": "Technológie",
+  "tech-stack.desc": "Technológie a nástroje, ktoré používam na tvorbu backendových aplikácií v Jave a Spring Boote.",
+
+  "tech-stack.tech-stack": "Prehľad Technológií",
+  "tech-stack.database": "Databázy",
+  "tech-stack.tools": "Nástroje",
+  "tech-stack.testing": "Testovanie",
+
+  "learning-journey.title": "Cesta vzdelávania",
+  "learning-journey.desc1": "Napredujem prostredníctvom kníh, projektov a praktických skúseností.",
+  "learning-journey.desc2": "Verím, že stať sa dobrým softvérovým inžinierom vyžaduje neustále vzdelávanie. Popri vývoji aplikácií v Jave a Spring Boot sa pravidelne venujem softvérovej architektúre, návrhovým vzorom, princípom čistého kódu a backendovému vývoju prostredníctvom odborných kníh. Mojím cieľom nie je tieto koncepty iba pochopiť, ale aj aplikovať ich v reálnych projektoch a neustále zlepšovať svoje zručnosti.",
+
+  "learning-journey.books":"Knihy",
+  "learning-journey.education":"Vzdelanie",
+
+  "learning-journey.education.school.bc.title":"Informatika",
+  "learning-journey.education.school.bc.desc": "Bakalársky titul",
+  "learning-journey.education.school.bc.status": "Ukončené",
+
+  "learning-journey.education.school.ing.title": "Aplikovaná informatika",
+  "learning-journey.education.school.ing.desc": "Inžinierský titul",
+  "learning-journey.education.school.ing.status": "Prebiehajúce",
+
+
+  "learning-journey.books.je.desc": "Prehlbujem si znalosti najlepších postupov v Jave a efektívneho objektovo orientovaného programovania.",
+  "learning-journey.books.je.status": "Ukončené",
+
+  "learning-journey.books.jm.desc": "Učím sa rozpoznávať bežné chyby v Jave a osvojovať si postupy pre čistejší, bezpečnejší a udržiavateľnejší kód.",
+  "learning-journey.books.jm.status": "Ukončené",
+
+  "learning-journey.books.ca.desc": "Učím sa princípy návrhu čistého, udržiavateľného a dobre štruktúrovaného softvéru.",
+  "learning-journey.books.ca.status": "Ukončené",
+
+  "learning-journey.books.ssh.desc": "Budujem si pevné základy v Springu a učím sa vyvíjať moderné Java backendové aplikácie.",
+  "learning-journey.books.ssh.status": "Ukončené",
+
+  "learning-journey.books.ssia.desc": "Učím sa autentifikáciu, autorizáciu a bezpečnostné princípy pre Spring aplikácie.",
+  "learning-journey.books.ssia.status": "Prebiehajúce",
+
+  "learning-journey.books.ddia.desc": "Učím sa navrhovať spoľahlivé, škálovateľné a udržiavateľné systémy pracujúce s veľkým množstvom dát.",
+  "learning-journey.books.ddia.status": "Prebiehajúce",
+
+  "about-me.title": "O Mne",
+
+  "about-me.description.first": "Som Junior Software Developer so zameraním predovšetkým na Java ekosystém. Baví ma objektovo orientované programovanie, návrh softvéru a premýšľanie nad problémami predtým, než sa rozhodnem, ako ich vyriešiť.",
+
+  "about-me.description.second": "Záleží mi na čistom, udržiavateľnom a ľahko modifikovateľnom kóde a verím, že kvalitný softvér začína premysleným návrhom, nie iba tým, že funguje.",
+
+  "about-me.description.third": "Svoje znalosti si neustále prehlbujem prostredníctvom praktických projektov a technických kníh. Zaujíma ma fungovanie Javy do hĺbky, softvérová architektúra, počítačové siete a kybernetická bezpečnosť. Baví ma chápať, ako veci fungujú pod kapotou, a získané znalosti následne využívať v praxi.",
+
+  "currently-building.title": "Na čom aktuálne pracujem",
+  "currently-building.desc1": "Projekty, na ktorých aktuálne pracujem s cieľom získavať praktické skúsenosti a riešiť reálne problémy.",
+  "currently-building.desc2": "Tieto projekty mi umožňujú aplikovať nadobudnuté znalosti v praxi, skúšať nové technológie a rozvíjať svoje zručnosti v oblasti vývoja softvéru, architektúry a riešenia problémov.",
+
+
+  "currently-building.title": "Na čom aktuálne pracujem",
+  "currently-building.desc1": "Projekty, na ktorých aktuálne pracujem s cieľom získavať praktické skúsenosti a riešiť reálne problémy.",
+  "currently-building.desc2": "Tieto projekty mi umožňujú aplikovať nadobudnuté znalosti v praxi, skúšať nové technológie a rozvíjať svoje zručnosti v oblasti vývoja softvéru, architektúry a riešenia problémov.",
+
+  "currently-building.educational-software.title": "Educational Software V2",
+  "currently-building.educational-software.subtitle": "Platforma pre výučbu numerických metód",
+  "currently-building.educational-software.description": "Rozšírenie a nasadenie projektu bakalárskej práce na univerzitný server v letnom semestri 2027 s cieľom využívať aplikáciu ako výučbovú pomôcku pre predmet Numerické metódy.",
+  "currently-building.educational-software.point1": "Migrácia autentifikácie používateľov z databázového riešenia na LDAP autentifikáciu s využitím univerzitnej identity.",
+  "currently-building.educational-software.point2": "Presun implementácie numerických metód z frontendovej časti aplikácie do backendu.",
+  "currently-building.educational-software.point3": "Úprava a rozšírenie aplikácie pre nasadenie na univerzitný server.",
+  "currently-building.educational-software.point4": "Refaktoring existujúceho riešenia s cieľom pripraviť aplikáciu na praktické využitie vo výučbe numerických metód.",
+
+  "currently-building.des.title": "DES",
+  "currently-building.des.subtitle": "DES – CASE nástroj pre agentové simulácie",
+  "currently-building.des.description": "Rozvoj existujúceho CASE nástroja pre tvorbu agentových simulácií, ktorý bol pôvodne implementovaný v Java Swing. Projekt zahŕňa migráciu grafického používateľského rozhrania do JavaFX a zároveň rozšírenie aplikácie o nové funkcionality inšpirované nástrojmi pre agentové a diskrétne simulácie, ako je AnyLogic.",
+  "currently-building.des.point1": "Migrácia existujúceho grafického používateľského rozhrania z Java Swing na JavaFX.",
+  "currently-building.des.point2": "Modernizácia používateľského rozhrania s cieľom zlepšiť používateľskú skúsenosť a rozšíriteľnosť aplikácie.",
+  "currently-building.des.point3": "Rozšírenie aplikácie o nové funkcionality pre tvorbu a prácu s agentovými simulačnými modelmi.",
+  "currently-building.des.point4": "Inšpirácia funkcionalitou nástrojov ako AnyLogic pri návrhu nových možností modelovania a simulácie.",
+  "currently-building.des.point5": "Zachovanie a ďalší rozvoj existujúcej funkcionality vrátane grafického modelovania a generovania zdrojového kódu.",
+
+  "currently-building.dss.title": "Decision Support System",
+  "currently-building.dss.subtitle": "Systém na podporu rozhodovania",
+  "currently-building.dss.description": "Vývoj aplikácie slúžiacej ako nástroj na podporu rozhodovania pri riešení vybranej optimalizačnej úlohy. Súčasťou aplikácie je grafický editor na tvorbu a úpravu testovacích úloh na mape alebo dopravnej sieti, riešenie optimalizačných úloh pomocou vybraného algoritmu a vizualizácia výsledkov.",
+  "currently-building.dss.point1": "Grafický editor na tvorbu a editáciu testovacích úloh na mape alebo dopravnej sieti.",
+  "currently-building.dss.point2": "Implementácia vybraného optimalizačného algoritmu na riešenie modelovaných úloh.",
+  "currently-building.dss.point3": "Vizualizácia výsledkov riešenia v textovej podobe a priamo na mape alebo dopravnej sieti.",
+  "currently-building.dss.point4": "Návrh používateľského rozhrania pre interaktívnu tvorbu, riešenie a vyhodnocovanie optimalizačných úloh."
+
 
 }

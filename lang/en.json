@@ -13,13 +13,15 @@
 
   "contact": "Contact",
 
-  "currently-building": "Currently building",
+  "currently-building": "Currently Building",
 
   "projects": "Projects",
 
-  "featured-projects": "Featured projects",
+  "featured-projects": "Featured Projects",
 
-  "featured-projects-title": "Featured projects",
+  "featured-projects.title": "Featured Projects",
+
+  "featured-projects.desc": "A selection of projects I’ve built to strengthen my skills, explore new technologies, and turn ideas into working software.",
 
   "featured-projects.liw.desc": "A simple story-driven GUI application loosely inspired by the atmosphere and gameplay elements of the AAA titles Firewatch and Life Is Strange. The project focuses on environmental interaction, storytelling, and overall user experience.",
 
@@ -31,7 +33,86 @@
 
   "featured-projects.swp.desc": "A simple web application inspired by the TV series The Lost. The project uses the series as a thematic foundation for its user interface and interactive content presentation.",
 
-  "featured-projects.pcr.desc": "An information system designed for managing patient records and PCR test results. It allows users to organize patient data, record test results, and work with stored records."
+  "featured-projects.pcr.desc": "An information system designed for managing patient records and PCR test results. It allows users to organize patient data, record test results, and work with stored records.",
+
+  "tech-stack.headline": "Technologies",
+  "tech-stack.desc": "Technologies and tools I use to build Java and Spring Boot backend applications.",
+
+  "tech-stack.tech-stack": "Tech Stack",
+  "tech-stack.database": "Database",
+  "tech-stack.tools": "Tools",
+  "tech-stack.testing": "Testing",
+
+  "learning-journey.title": "Learning Journey",
+  "learning-journey.desc1": "Growing through books, projects, and hands-on experience.",
+  "learning-journey.desc2": "I believe that becoming a great software engineer requires continuous learning. Alongside building Java and Spring Boot applications, I regularly study software architecture, design patterns, clean code principles, and backend development through technical books. My goal is not only to understand these concepts but to apply them in real-world projects and continuously improve my skills.",
+
+  "learning-journey.books":"Books",
+  "learning-journey.education":"Education",
+
+  "learning-journey.education.school.bc.title": "Computer Science",
+  "learning-journey.education.school.bc.desc": "Bachelor's Degree",
+  "learning-journey.education.school.bc.status": "Completed",
+
+  "learning-journey.education.school.ing.title": "Applied Computer Science",
+  "learning-journey.education.school.ing.desc": "Master's Degree",
+  "learning-journey.education.school.ing.status": "Current",
+
+  "learning-journey.books.je.desc": "Deepening my understanding of Java best practices and effective object-oriented programming.",
+  "learning-journey.books.je.status": "Completed",
+
+  "learning-journey.books.jm.desc": "Learning common Java pitfalls and best practices to write cleaner, safer and more maintainable code.",
+  "learning-journey.books.jm.status": "Completed",
+
+  "learning-journey.books.ca.desc": "Learning principles for designing clean, maintainable and well-structured software systems.",
+  "learning-journey.books.ca.status": "Completed",
+
+  "learning-journey.books.ssh.desc": "Building a strong foundation in Spring and learning how to develop modern Java backend applications.",
+  "learning-journey.books.ssh.status": "Completed",
+
+  "learning-journey.books.ssia.desc": "Learning authentication, authorization and security best practices for Spring applications.",
+  "learning-journey.books.ssia.status": "Current",
+
+  "learning-journey.books.ddia.desc": "Learning how to design reliable, scalable and maintainable data-intensive systems.",
+  "learning-journey.books.ddia.status": "Current",
+
+  "about-me.title": "About Me",
+
+  "about-me.description.first": "I’m a Junior Software Developer primarily focused on the Java ecosystem. I enjoy object-oriented programming, software design, and taking the time to understand problems before deciding how to solve them.",
+
+  "about-me.description.second": "I value clean, maintainable, and adaptable code and believe that good software starts with thoughtful design rather than simply making something work.",
+
+  "about-me.description.third": "I’m continuously deepening my knowledge through practical projects and technical books, with a strong interest in Java internals, software architecture, computer networks, and cybersecurity. I enjoy exploring these topics in depth, understanding how things work under the hood, and applying what I learn in practice.",
+
+
+  "currently-building.title": "Currently Building",
+  "currently-building.desc1": "Projects I’m actively developing to gain practical experience and solve real problems.",
+  "currently-building.desc2": "These projects allow me to apply what I learn in practice, experiment with new technologies, and improve my skills in software development, architecture, and problem solving.",
+
+  "currently-building.educational-software.title": "Educational Software V2",
+  "currently-building.educational-software.subtitle": "Platform for Teaching Numerical Methods",
+  "currently-building.educational-software.description": "Extending and deploying my bachelor’s thesis project to a university server in the summer semester of 2027, with the goal of using the application as a teaching tool for the Numerical Methods course.",
+  "currently-building.educational-software.point1": "Migrating user authentication from a database-based solution to LDAP authentication using university identities.",
+  "currently-building.educational-software.point2": "Moving the implementation of numerical methods from the frontend to the backend.",
+  "currently-building.educational-software.point3": "Adapting and extending the application for deployment on a university server.",
+  "currently-building.educational-software.point4": "Refactoring the existing solution to prepare the application for practical use in teaching Numerical Methods.",
+
+  "currently-building.des.title": "DES",
+  "currently-building.des.subtitle": "DES – CASE Tool for Agent-Based Simulations",
+  "currently-building.des.description": "Development of an existing CASE tool for creating agent-based simulations, originally implemented in Java Swing. The project involves migrating the graphical user interface to JavaFX while extending the application with new features inspired by tools for agent-based and discrete-event simulation, such as AnyLogic.",
+  "currently-building.des.point1": "Migrating the existing graphical user interface from Java Swing to JavaFX.",
+  "currently-building.des.point2": "Modernizing the user interface to improve usability and maintainability.",
+  "currently-building.des.point3": "Extending the application with new features for creating and working with agent-based simulation models.",
+  "currently-building.des.point4": "Taking inspiration from tools such as AnyLogic when designing new modelling and simulation features.",
+  "currently-building.des.point5": "Maintaining and further developing existing functionality, including graphical modelling and source code generation.",
+  
+  "currently-building.dss.title": "Decision Support System",
+  "currently-building.dss.subtitle": "Decision Support System",
+  "currently-building.dss.description": "Developing an application that supports decision-making when solving a selected optimization problem. The application includes a graphical editor for creating and modifying test scenarios on a map or transportation network, solving optimization problems using a selected algorithm, and visualizing the results.",
+  "currently-building.dss.point1": "Graphical editor for creating and editing test scenarios on a map or transportation network.",
+  "currently-building.dss.point2": "Implementation of a selected optimization algorithm for solving the modeled problems.",
+  "currently-building.dss.point3": "Visualization of solution results in textual form and directly on the map or transportation network.",
+  "currently-building.dss.point4": "Designing an interactive user interface for creating, solving, and evaluating optimization problems."
 
 
 }

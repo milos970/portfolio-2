@@ -18,7 +18,7 @@
 }
 
 input.check-toggle-round-flat:checked~.off {
-    color: #F36F25;
+    color: #25abf3;
 }
 
 input.check-toggle-round-flat:checked~.on {
@@ -28,7 +28,7 @@ input.check-toggle-round-flat:checked~.on {
 .switch>span.on {
     left: 0;
     padding-left: 2px;
-    color: #F36F25;
+    color: #25abf3;
 }
 
 .switch>span.off {
@@ -60,7 +60,7 @@ input.check-toggle-round-flat+label {
     padding: 2px;
     width: 97px;
     height: 35px;
-    background-color: #F36F25;
+    background-color: #25abf3;
     -webkit-border-radius: 60px;
     -moz-border-radius: 60px;
     -ms-border-radius: 60px;
@@ -80,7 +80,7 @@ input.check-toggle-round-flat+label:before {
     left: 2px;
     bottom: 2px;
     right: 2px;
-    background-color: #F36F25;
+    background-color: #25abf3;
     -webkit-moz-border-radius: 60px;
     -ms-border-radius: 60px;
     -o-border-radius: 60px;
@@ -112,3 +112,5 @@ input.check-toggle-round-flat:checked+label:after {
 .switch {
     margin-top: 10px;
 }
+
+
