@@ -1,7 +1,4 @@
 
-<section>
-
-
 <section id="banner">
     <div class="content">
         <header>
@@ -71,5 +68,8 @@
         </article>
     </div>
 </section>
+<<<<<<< HEAD
+=======
 
 </section>
+>>>>>>> 784b61ad1416a8b23ceedce271dd1beae1d0a556
