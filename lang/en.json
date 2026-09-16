@@ -21,7 +21,7 @@
 
   "featured-projects.title": "Featured Projects",
 
-  "featured-projects.desc": "A selection of projects I’ve built to strengthen my skills, explore new technologies, and turn ideas into working software.",
+  "featured-projects.desc": "An overview of my projects, created to develop technical skills, explore modern technologies, and turn creative ideas into functional software.",
 
   "featured-projects.liw.desc": "A simple story-driven GUI application loosely inspired by the atmosphere and gameplay elements of the AAA titles Firewatch and Life Is Strange. The project focuses on environmental interaction, storytelling, and overall user experience.",
 
@@ -77,12 +77,7 @@
   "learning-journey.books.ddia.status": "Current",
 
   "about-me.title": "About Me",
-
-  "about-me.description.first": "I’m a Junior Software Developer primarily focused on the Java ecosystem. I enjoy object-oriented programming, software design, and taking the time to understand problems before deciding how to solve them.",
-
-  "about-me.description.second": "I value clean, maintainable, and adaptable code and believe that good software starts with thoughtful design rather than simply making something work.",
-
-  "about-me.description.third": "I’m continuously deepening my knowledge through practical projects and technical books, with a strong interest in Java internals, software architecture, computer networks, and cybersecurity. I enjoy exploring these topics in depth, understanding how things work under the hood, and applying what I learn in practice.",
+  "about-me.desc": "An aspiring Java software engineer dedicated to clean code, readability, and maintainability. I thrive on analyzing complex problems and architecting optimal solutions prior to implementation. I continuously expand my expertise in Java internals, software architecture, networking, and security. By bridging the gap between technical literature and hands-on practice, I focus on building robust, scalable, and stable software.",
 
 
   "currently-building.title": "Currently Building",
@@ -105,7 +100,7 @@
   "currently-building.des.point3": "Extending the application with new features for creating and working with agent-based simulation models.",
   "currently-building.des.point4": "Taking inspiration from tools such as AnyLogic when designing new modelling and simulation features.",
   "currently-building.des.point5": "Maintaining and further developing existing functionality, including graphical modelling and source code generation.",
-  
+
   "currently-building.dss.title": "Decision Support System",
   "currently-building.dss.subtitle": "Decision Support System",
   "currently-building.dss.description": "Developing an application that supports decision-making when solving a selected optimization problem. The application includes a graphical editor for creating and modifying test scenarios on a map or transportation network, solving optimization problems using a selected algorithm, and visualizing the results.",

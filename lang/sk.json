@@ -19,7 +19,7 @@
 
   "featured-projects.title": "Vybrané Projekty",
 
-  "featured-projects.desc": "Výber projektov, ktoré som vytvoril s cieľom rozvíjať svoje zručnosti, objavovať nové technológie a pretvárať nápady na funkčný softvér.",
+  "featured-projects.desc": "Prehľad mojich projektov, ktoré vznikli s cieľom rozvíjať technické zručnosti, objavovať moderné technológie a pretvárať kreatívne nápady na funkčný softvér.",
 
   "featured-projects": "Vybrané Projekty",
 
@@ -79,20 +79,13 @@
 
   "about-me.title": "O Mne",
 
-  "about-me.description.first": "Som Junior Software Developer so zameraním predovšetkým na Java ekosystém. Baví ma objektovo orientované programovanie, návrh softvéru a premýšľanie nad problémami predtým, než sa rozhodnem, ako ich vyriešiť.",
+  "about-me.desc": "Ako začínajúci softvérový inžinier so zameraním na Javu kladiem maximálny dôraz na písanie čistého, čitateľného a ľahko modifikovateľného kódu. Baví ma analyzovať komplexné problémy a navrhovať ich optimálne riešenia ešte pred napísaním prvého riadku kódu. Cieľavedome si prehlbujem znalosti o vnútornom fungovaní jazyka Java, architektúre aplikácií, počítačových sieťach a bezpečnosti. Získané teoretické poznatky z technických kníh okamžite aplikujem v praxi, vďaka čomu dokážem budovať robustnejšie a stabilnejšie riešenia.",
 
-  "about-me.description.second": "Záleží mi na čistom, udržiavateľnom a ľahko modifikovateľnom kóde a verím, že kvalitný softvér začína premysleným návrhom, nie iba tým, že funguje.",
 
-  "about-me.description.third": "Svoje znalosti si neustále prehlbujem prostredníctvom praktických projektov a technických kníh. Zaujíma ma fungovanie Javy do hĺbky, softvérová architektúra, počítačové siete a kybernetická bezpečnosť. Baví ma chápať, ako veci fungujú pod kapotou, a získané znalosti následne využívať v praxi.",
-
-  "currently-building.title": "Na čom aktuálne pracujem",
+  "currently-building.title": "Vo Vývoji",
   "currently-building.desc1": "Projekty, na ktorých aktuálne pracujem s cieľom získavať praktické skúsenosti a riešiť reálne problémy.",
   "currently-building.desc2": "Tieto projekty mi umožňujú aplikovať nadobudnuté znalosti v praxi, skúšať nové technológie a rozvíjať svoje zručnosti v oblasti vývoja softvéru, architektúry a riešenia problémov.",
 
-
-  "currently-building.title": "Na čom aktuálne pracujem",
-  "currently-building.desc1": "Projekty, na ktorých aktuálne pracujem s cieľom získavať praktické skúsenosti a riešiť reálne problémy.",
-  "currently-building.desc2": "Tieto projekty mi umožňujú aplikovať nadobudnuté znalosti v praxi, skúšať nové technológie a rozvíjať svoje zručnosti v oblasti vývoja softvéru, architektúry a riešenia problémov.",
 
   "currently-building.educational-software.title": "Educational Software V2",
   "currently-building.educational-software.subtitle": "Platforma pre výučbu numerických metód",
