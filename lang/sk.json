@@ -19,7 +19,7 @@
 
   "featured-projects.title": "Vybrané Projekty",
 
-  "featured-projects.desc": "Prehľad mojich projektov, ktoré vznikli s cieľom rozvíjať technické zručnosti, objavovať moderné technológie a pretvárať kreatívne nápady na funkčný softvér.",
+  "featured-projects.desc": "Prehľad vybraných projektov, na ktorých som pracoval s cieľom rozvíjať svoje technické zručnosti, získavať praktické skúsenosti s modernými technológiami a premieňať nápady na funkčné a udržateľné softvérové riešenia.",
 
   "featured-projects": "Vybrané Projekty",
 
@@ -36,7 +36,7 @@
   "featured-projects.pcr.desc": "Informačný systém určený na evidenciu pacientov a správu výsledkov PCR testovania. Umožňuje organizovať údaje o pacientoch, zaznamenávať výsledky testov a pracovať s evidovanými záznamami.",
 
   "tech-stack.headline": "Technológie",
-  "tech-stack.desc": "Technológie a nástroje, ktoré používam na tvorbu backendových aplikácií v Jave a Spring Boote.",
+  "tech-stack.desc": "Technológie a nástroje, s ktorými pracujem pri vývoji softvérových aplikácií, primárne v ekosystéme Java, Spring Boot a súvisiacich technológií.",
 
   "tech-stack.tech-stack": "Prehľad Technológií",
   "tech-stack.database": "Databázy",
@@ -45,46 +45,53 @@
 
   "learning-journey.title": "Cesta vzdelávania",
   "learning-journey.desc1": "Napredujem prostredníctvom kníh, projektov a praktických skúseností.",
-  "learning-journey.desc2": "Verím, že stať sa dobrým softvérovým inžinierom vyžaduje neustále vzdelávanie. Popri vývoji aplikácií v Jave a Spring Boot sa pravidelne venujem softvérovej architektúre, návrhovým vzorom, princípom čistého kódu a backendovému vývoju prostredníctvom odborných kníh. Mojím cieľom nie je tieto koncepty iba pochopiť, ale aj aplikovať ich v reálnych projektoch a neustále zlepšovať svoje zručnosti.",
+  "learning-journey.desc2": "",
 
   "learning-journey.books":"Knihy",
   "learning-journey.education":"Vzdelanie",
 
   "learning-journey.education.school.bc.title":"Informatika",
-  "learning-journey.education.school.bc.desc": "Bakalársky titul",
+  "learning-journey.education.school.bc.desc": "Bakalársky stupeň",
   "learning-journey.education.school.bc.status": "Ukončené",
 
   "learning-journey.education.school.ing.title": "Aplikovaná informatika",
-  "learning-journey.education.school.ing.desc": "Inžinierský titul",
+  "learning-journey.education.school.ing.desc": "Inžinierský stupeň",
   "learning-journey.education.school.ing.status": "Prebiehajúce",
 
 
   "learning-journey.books.je.desc": "Prehlbujem si znalosti najlepších postupov v Jave a efektívneho objektovo orientovaného programovania.",
-  "learning-journey.books.je.status": "Ukončené",
+  "learning-journey.books.je.status": "Preštudované",
 
   "learning-journey.books.jm.desc": "Učím sa rozpoznávať bežné chyby v Jave a osvojovať si postupy pre čistejší, bezpečnejší a udržiavateľnejší kód.",
-  "learning-journey.books.jm.status": "Ukončené",
+  "learning-journey.books.jm.status": "Preštudované",
 
   "learning-journey.books.ca.desc": "Učím sa princípy návrhu čistého, udržiavateľného a dobre štruktúrovaného softvéru.",
-  "learning-journey.books.ca.status": "Ukončené",
+  "learning-journey.books.ca.status": "Preštudované",
 
   "learning-journey.books.ssh.desc": "Budujem si pevné základy v Springu a učím sa vyvíjať moderné Java backendové aplikácie.",
-  "learning-journey.books.ssh.status": "Ukončené",
+  "learning-journey.books.ssh.status": "Preštudované",
 
   "learning-journey.books.ssia.desc": "Učím sa autentifikáciu, autorizáciu a bezpečnostné princípy pre Spring aplikácie.",
-  "learning-journey.books.ssia.status": "Prebiehajúce",
+  "learning-journey.books.ssia.status": "Študujem",
 
   "learning-journey.books.ddia.desc": "Učím sa navrhovať spoľahlivé, škálovateľné a udržiavateľné systémy pracujúce s veľkým množstvom dát.",
-  "learning-journey.books.ddia.status": "Prebiehajúce",
+  "learning-journey.books.ddia.status": "Študujem",
 
   "about-me.title": "O Mne",
 
-  "about-me.desc": "Ako začínajúci softvérový inžinier so zameraním na Javu kladiem maximálny dôraz na písanie čistého, čitateľného a ľahko modifikovateľného kódu. Baví ma analyzovať komplexné problémy a navrhovať ich optimálne riešenia ešte pred napísaním prvého riadku kódu. Cieľavedome si prehlbujem znalosti o vnútornom fungovaní jazyka Java, architektúre aplikácií, počítačových sieťach a bezpečnosti. Získané teoretické poznatky z technických kníh okamžite aplikujem v praxi, vďaka čomu dokážem budovať robustnejšie a stabilnejšie riešenia.",
+  "about-me.desc.intro": "Som začínajúci Java Developer so zameraním na backendový vývoj v Java a Spring Boot. Aktuálne pokračujem v inžinierskom štúdiu, pričom svoju kariérnu orientáciu smerujem predovšetkým na profesionálny softvérový vývoj a získavanie praktických skúseností. Štúdium vnímam ako doplnok k praktickému rozvoju a som flexibilný pri jeho prispôsobení pracovným povinnostiam.",
+
+  "about-me.desc.approach": "Pri vývoji sa zameriavam na tvorbu čistého, čitateľného a udržiavateľného kódu. Pred implementáciou sa snažím problém analyzovať do hĺbky, premyslieť vhodnú architektúru a zvoliť riešenie, ktoré bude jednoduché na testovanie, rozširovanie a ďalšiu údržbu.",
+
+  "about-me.desc.technologies": "Primárne sa venujem ekosystému Java a Spring Boot, pričom si rozvíjam znalosti backendového vývoja, REST API, databáz, ORM, dependency injection, testovania a návrhových princípov. Zároveň sa zaujímam o fungovanie JVM, architektúru aplikácií, počítačové siete a bezpečnosť.",
+
+  "about-me.desc.learning": "Teoretické znalosti aktívne prepájam s praktickou implementáciou prostredníctvom vlastných projektov. Mojím cieľom je rozumieť nielen tomu, ako technológie používať, ale aj princípom, na ktorých fungujú, aby som dokázal robiť kvalitné technické rozhodnutia a navrhovať spoľahlivé a dlhodobo udržateľné riešenia.",
+
+  "about-me.desc.goals": "Som motivovaný ďalej sa rozvíjať ako backendový vývojár, získavať skúsenosti v reálnom vývojovom tíme a postupne preberať zodpovednosť za komplexnejšie časti softvérových aplikácií. Hľadám príležitosť, kde môžem svoje znalosti Java a Spring Bootu využiť v praxi, učiť sa od skúsenejších kolegov a zároveň aktívne prispievať ku kvalite vyvíjaného softvéru.",
 
 
   "currently-building.title": "Vo Vývoji",
-  "currently-building.desc1": "Projekty, na ktorých aktuálne pracujem s cieľom získavať praktické skúsenosti a riešiť reálne problémy.",
-  "currently-building.desc2": "Tieto projekty mi umožňujú aplikovať nadobudnuté znalosti v praxi, skúšať nové technológie a rozvíjať svoje zručnosti v oblasti vývoja softvéru, architektúry a riešenia problémov.",
+  "currently-building.desc1": "Projekty, na ktorých aktuálne pracujem s cieľom ďalej rozvíjať svoje technické zručnosti, získavať praktické skúsenosti a hľadať riešenia reálnych problémov.",
 
 
   "currently-building.educational-software.title": "Educational Software V2",

@@ -21,7 +21,7 @@
 
   "featured-projects.title": "Featured Projects",
 
-  "featured-projects.desc": "An overview of my projects, created to develop technical skills, explore modern technologies, and turn creative ideas into functional software.",
+  "featured-projects.desc": "An overview of selected projects I have worked on with the goal of developing my technical skills, gaining practical experience with modern technologies, and turning ideas into functional and maintainable software solutions.",
 
   "featured-projects.liw.desc": "A simple story-driven GUI application loosely inspired by the atmosphere and gameplay elements of the AAA titles Firewatch and Life Is Strange. The project focuses on environmental interaction, storytelling, and overall user experience.",
 
@@ -36,7 +36,7 @@
   "featured-projects.pcr.desc": "An information system designed for managing patient records and PCR test results. It allows users to organize patient data, record test results, and work with stored records.",
 
   "tech-stack.headline": "Technologies",
-  "tech-stack.desc": "Technologies and tools I use to build Java and Spring Boot backend applications.",
+  "tech-stack.desc": "Technologies and tools I work with when developing software applications, primarily within the Java and Spring Boot ecosystem and related technologies.",
 
   "tech-stack.tech-stack": "Tech Stack",
   "tech-stack.database": "Database",
@@ -45,7 +45,7 @@
 
   "learning-journey.title": "Learning Journey",
   "learning-journey.desc1": "Growing through books, projects, and hands-on experience.",
-  "learning-journey.desc2": "I believe that becoming a great software engineer requires continuous learning. Alongside building Java and Spring Boot applications, I regularly study software architecture, design patterns, clean code principles, and backend development through technical books. My goal is not only to understand these concepts but to apply them in real-world projects and continuously improve my skills.",
+  "learning-journey.desc2": "",
 
   "learning-journey.books":"Books",
   "learning-journey.education":"Education",
@@ -59,30 +59,38 @@
   "learning-journey.education.school.ing.status": "Current",
 
   "learning-journey.books.je.desc": "Deepening my understanding of Java best practices and effective object-oriented programming.",
-  "learning-journey.books.je.status": "Completed",
+  "learning-journey.books.je.status": "Studied",
 
   "learning-journey.books.jm.desc": "Learning common Java pitfalls and best practices to write cleaner, safer and more maintainable code.",
-  "learning-journey.books.jm.status": "Completed",
+  "learning-journey.books.jm.status": "Studied",
 
   "learning-journey.books.ca.desc": "Learning principles for designing clean, maintainable and well-structured software systems.",
-  "learning-journey.books.ca.status": "Completed",
+  "learning-journey.books.ca.status": "Studied",
 
   "learning-journey.books.ssh.desc": "Building a strong foundation in Spring and learning how to develop modern Java backend applications.",
-  "learning-journey.books.ssh.status": "Completed",
+  "learning-journey.books.ssh.status": "Studied",
 
   "learning-journey.books.ssia.desc": "Learning authentication, authorization and security best practices for Spring applications.",
-  "learning-journey.books.ssia.status": "Current",
+  "learning-journey.books.ssia.status": "Currently Studying",
 
   "learning-journey.books.ddia.desc": "Learning how to design reliable, scalable and maintainable data-intensive systems.",
-  "learning-journey.books.ddia.status": "Current",
+  "learning-journey.books.ddia.status": "Currently Studying",
 
   "about-me.title": "About Me",
-  "about-me.desc": "An aspiring Java software engineer dedicated to clean code, readability, and maintainability. I thrive on analyzing complex problems and architecting optimal solutions prior to implementation. I continuously expand my expertise in Java internals, software architecture, networking, and security. By bridging the gap between technical literature and hands-on practice, I focus on building robust, scalable, and stable software.",
+
+  "about-me.desc.intro": "I am an aspiring Java Developer focused on backend development with Java and Spring Boot. I am currently pursuing a Master's degree, while primarily focusing my career path on professional software development and gaining practical experience. I view my studies as a complement to my practical development, and I am flexible in adapting them to my professional commitments.",
+
+  "about-me.desc.approach": "When developing software, I focus on writing clean, readable, and maintainable code. Before implementation, I try to thoroughly analyze the problem, carefully consider the appropriate architecture, and choose a solution that is easy to test, extend, and maintain in the long term.",
+
+  "about-me.desc.technologies": "My primary focus is the Java and Spring Boot ecosystem, where I am continuously developing my knowledge of backend development, REST APIs, databases, ORM, dependency injection, testing, and software design principles. I am also interested in understanding how the JVM works, application architecture, computer networks, and application security.",
+
+  "about-me.desc.learning": "I actively connect theoretical knowledge with practical implementation through personal projects. My goal is not only to understand how to use technologies, but also the principles behind them, allowing me to make sound technical decisions and design reliable, maintainable, and scalable solutions.",
+
+  "about-me.desc.goals": "I am motivated to continue developing as a backend developer, gain experience in a real-world development team, and gradually take responsibility for more complex parts of software applications. I am looking for an opportunity where I can apply my Java and Spring Boot knowledge in practice, learn from experienced colleagues, and actively contribute to the quality of the software being developed.",
 
 
   "currently-building.title": "Currently Building",
-  "currently-building.desc1": "Projects I’m actively developing to gain practical experience and solve real problems.",
-  "currently-building.desc2": "These projects allow me to apply what I learn in practice, experiment with new technologies, and improve my skills in software development, architecture, and problem solving.",
+  "currently-building.desc1": "Projects I am currently working on to further develop my technical skills, gain practical experience, and find solutions to real-world problems.",
 
   "currently-building.educational-software.title": "Educational Software V2",
   "currently-building.educational-software.subtitle": "Platform for Teaching Numerical Methods",

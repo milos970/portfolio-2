@@ -2312,7 +2312,7 @@ button,
 }
 
 
-/* Skrytie pôvodného checkboxu */
+
 .switch > input.check-toggle {
     position: absolute !important;
     left: -9999px !important;
@@ -2324,7 +2324,7 @@ button,
 }
 
 
-/* Vlastný vzhľad labelu */
+
 .switch > input.check-toggle-round-flat + label {
     display: block !important;
     position: relative !important;
@@ -2344,14 +2344,14 @@ button,
 }
 
 
-/* Zrušenie globálneho checkbox :before */
+
 .switch > input.check-toggle-round-flat + label:before {
     content: none !important;
     display: none !important;
 }
 
 
-/* Biely posúvač */
+
 .switch > input.check-toggle-round-flat + label:after {
     content: "" !important;
     display: block !important;
@@ -2373,13 +2373,13 @@ button,
 }
 
 
-/* Posunutie pri EN */
+
 .switch > input.check-toggle-round-flat:checked + label:after {
     margin-left: 44px !important;
 }
 
 
-/* Texty */
+
 .switch > input.check-toggle-round-flat:checked ~ .off {
     color: #6c63ff;
 }
@@ -2387,4 +2387,30 @@ button,
 .switch > input.check-toggle-round-flat:checked ~ .on {
     color: #fff;
 }
+
+
+.status-text {
+
+    background-color: #695cf6;
+    border-radius: 8px;
+
+
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 24px;
+
+
+    cursor: default;
+    user-select: none;
+    box-sizing: border-box;
+}
+
 
